@@ -1,0 +1,27 @@
+Built using the Java Play framework.
+
+Read the routes file to see the available commands.
+
+What is the record high close for a stock given its ticker symbol?
+Example Ticker: NVDA
+Example Response: 172.94
+On an error return 0.00
+
+What is the record low close for a stock given its ticker symbol?
+Example Ticker: NVDA
+Example Response: 5.90
+On an error return 0.00
+
+What is the open price for a stock given a ticker symbol and a date?
+Example Ticker: NVDA
+Example Date: 2013-07-15
+Example Response: 14.67
+On an error return 0.00
+If we request a data where the stock was not traded return the error value.
+
+What is the close price for a stock given a ticker symbol and a date?
+Example Ticker: NVDA
+Example Date: 2013-07-15
+Example Response: 14.61
+On an error return 0.00
+If we request a data where the stock was not traded return the error value.
